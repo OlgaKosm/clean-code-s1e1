@@ -1,0 +1,76 @@
+Index: style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/style.css b/style.css
+--- a/style.css	(revision fd44dafb0ca22070d1f897dece1dd186b8fcbaa2)
++++ b/style.css	(revision 5425553c14c6391332ff5c4beb814fec6c19e386)
+@@ -37,7 +37,7 @@
+ .task {
+     width: 56%;
+     display: inline-block;
+-    flex-grow: 1
++    flex-grow: 1;
+ }
+ 
+ .task-row-wrapper {
+@@ -45,21 +45,21 @@
+ }
+ 
+ ul {
+-    margin:0;
+-    padding: 0px;
++    margin: 0;
++    padding: 0;
+ }
+ 
+ li, h3 {
+-    list-style:none;
++    list-style: none;
+ }
+ 
+-input,button{
+-    outline:none;
++input, button {
++    outline: none;
+ }
+ 
+ button {
+     background: none;
+-    border: 0px;
++    border: 0;
+     color: #888;
+     font-size: 15px;
+     width: 60px;
+@@ -135,8 +135,8 @@
+     width: 226px;
+ }
+ 
+-li >    input[type="text"] {
+-    width: 226px
++li > input[type="text"] {
++    width: 226px;
+ }
+ 
+ button.delete img {
+@@ -157,14 +157,14 @@
+ 
+ /* Edit Task */
+ ul li input[type=text] {
+-    display:none
++    display: none;
+ }
+ 
+ ul li.edit-mode input[type=text] {
+-    display:inline-block;
+-    width:224px
++    display: inline-block;
++    width: 224px;
+ }
+ 
+ ul li.edit-mode label {
+-    display:none;
++    display: none;
+ }
+\ No newline at end of file
