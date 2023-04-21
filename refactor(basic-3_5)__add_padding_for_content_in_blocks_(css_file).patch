@@ -1,0 +1,22 @@
+Index: style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/style.css b/style.css
+--- a/style.css	(revision 89b84bd64a5ce6b19e951d6c71068a069eafe44c)
++++ b/style.css	(revision fd44dafb0ca22070d1f897dece1dd186b8fcbaa2)
+@@ -21,8 +21,11 @@
+ }
+ 
+ @media (max-width:768px) {
+-.main-matrix { text-align: center;
+-}
++
++    .main-matrix {
++        text-align: center;
++    }
++
+ }
+ 
+ .main-element {
