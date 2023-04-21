@@ -1,0 +1,32 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 8b35e8f4258d4eecb9fea9e418d698db4288cd0f)
++++ b/index.html	(revision 89b84bd64a5ce6b19e951d6c71068a069eafe44c)
+@@ -5,7 +5,7 @@
+     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+ </head>
+-<body>
++<body class="page">
+   <div class="main-matrix"><img src="./eisenhower-matrix.jpg">
+       <a class="more-info"
+          href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?
+Index: style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/style.css b/style.css
+--- a/style.css	(revision 8b35e8f4258d4eecb9fea9e418d698db4288cd0f)
++++ b/style.css	(revision 89b84bd64a5ce6b19e951d6c71068a069eafe44c)
+@@ -1,5 +1,5 @@
+ /* Basic Style */
+-body {
++.page {
+     background-color: #f8f8f8;
+     color: #333;
+     font-family: Lato, sans-serif;
