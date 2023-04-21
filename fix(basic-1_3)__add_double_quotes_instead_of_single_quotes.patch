@@ -1,0 +1,110 @@
+Index: app.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app.js b/app.js
+--- a/app.js	(revision e57b01a2c78fb3856531f97393898d158c4ec3a0)
++++ b/app.js	(revision d55f77a3ee6c95231406b6b2dfa0ad95b03bf287)
+@@ -33,7 +33,7 @@
+     var deleteButtonImg=document.createElement("img");//delete button image
+ 
+     label.innerText=taskString;
+-    label.className='task';
++    label.className="task";
+ 
+     //Each elements, needs appending
+     checkBox.type="checkbox";
+@@ -44,7 +44,7 @@
+     editButton.className="edit";
+ 
+     deleteButton.className="delete";
+-    deleteButtonImg.src='./remove.svg';
++    deleteButtonImg.src="./remove.svg";
+     deleteButton.appendChild(deleteButtonImg);
+ 
+ 
+@@ -82,7 +82,7 @@
+ 
+     var listItem=this.parentNode;
+ 
+-    var editInput=listItem.querySelector('input[type=text]');
++    var editInput=listItem.querySelector("input[type=text]");
+     var label=listItem.querySelector("label");
+     var editBtn=listItem.querySelector(".edit");
+     var containsClass=listItem.classList.contains("editMode");
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision e57b01a2c78fb3856531f97393898d158c4ec3a0)
++++ b/index.html	(revision d55f77a3ee6c95231406b6b2dfa0ad95b03bf287)
+@@ -2,25 +2,25 @@
+ <html>
+ <head>
+     <title>Todo App</title>
+-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
++    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
+ </head>
+ <body>
+   <div class="aaa">
+       <img src="./eisenhower-matrix.jpg">
+-      <a class='more_inf' href="https://goal-life.com/page/method/matrix-eisenhower">Want more details&quest;</a>
++      <a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details&quest;</a>
+   </div>
+   <div class="centered-main-page-element">
+-      <p id='topSectionForAddingElementToList'>
++      <p id="topSectionForAddingElementToList">
+           <label for="new-task">Add Item</label>
+       <div class="task-row-wrapper">
+-      <input id='new-task'class="task" type="text">
++      <input id="new-task" class="task" type="text">
+       <button>Add</button>
+   </div>
+       </p>
+       <h3>Todo</h3>
+-  <ul id='incompleteTasks'>
+-      <li><input type='checkbox'>
++  <ul id="incompleteTasks">
++      <li><input type="checkbox">
+           <label class="task">Pay Bills</label>
+           <input type="text" class="task">
+           <button class="edit">Edit</button>
+@@ -31,7 +31,7 @@
+       <li class="editMode"><input type="checkbox">
+           <label class="task">Go Shopping</label>
+           <input type="text" value="Go Shopping" class="task">
+-          <button class='edit'>Save</button>
++          <button class="edit">Save</button>
+           <button class="delete">
+               <img src="./remove.svg">
+           </button>
+Index: style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/style.css b/style.css
+--- a/style.css	(revision e57b01a2c78fb3856531f97393898d158c4ec3a0)
++++ b/style.css	(revision d55f77a3ee6c95231406b6b2dfa0ad95b03bf287)
+@@ -70,7 +70,7 @@
+ 
+ /* Heading */
+ h3,
+-label[for='new-task'] {
++label[for="new-task"] {
+     color: #333;
+     font-weight: 700;
+     font-size: 15px;
+@@ -98,7 +98,7 @@
+ }
+ 
+ /* New Task */
+-label[for='new-task'] {
++label[for="new-task"] {
+     display: block;
+     margin: 0 0 20px;
+ }
